@@ -1,7 +1,7 @@
 import { Instagram, Youtube, Mail, MessageCircle, ArrowRight } from 'lucide-react';
 import { useState } from 'react';
 
-const LOGO_URL = 'https://media.base44.com/images/public/6a1dc3f9a0e9f9a443a65228/1977ff950_logo_white_transparent.png';
+const LOGO_URL = '/logo.png';
 
 const SITEMAP = [
   { label: 'Início', href: '#inicio' },
