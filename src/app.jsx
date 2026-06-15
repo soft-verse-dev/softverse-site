@@ -1,14 +1,14 @@
 import { Toaster } from "@/components/ui/toaster"
 import { QueryClientProvider } from '@tanstack/react-query'
-import { queryClientInstance } from '@/lib/query-client'
+import { queryClientInstance } from '@/lib/queryClient'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import PageNotFound from './lib/PageNotFound';
-import ScrollToTop from './components/ScrollToTop';
-import Home from './pages/Home';
-import BodyShop from './pages/BodyShop';
-import DesenvolvimentoSobDemanda from './pages/DesenvolvimentoSobDemanda';
-import DesignUiUx from './pages/DesignUiUx';
-import InteligenciaArtificial from './pages/InteligenciaArtificial';
+import PageNotFound from '@/lib/pageNotFound';
+import ScrollToTop from './components/scrollToTop';
+import Home from './pages/home';
+import BodyShop from './pages/bodyShop';
+import DesenvolvimentoSobDemanda from './pages/developmentOnDemand';
+import DesignUiUx from './pages/designUiUx';
+import InteligenciaArtificial from './pages/inteligenciaArtificial';
 
 function App() {
   return (

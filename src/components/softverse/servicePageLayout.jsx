@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { ArrowLeft, ArrowRight, MessageCircle } from 'lucide-react';
-import Navbar from './Navbar';
-import Footer from './Footer';
+import Navbar from './navbar';
+import Footer from './footer';
 
 export default function ServicePageLayout({ service }) {
   const {

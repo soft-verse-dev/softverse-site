@@ -1,4 +1,4 @@
-import ServicePageLayout from '../components/softverse/ServicePageLayout';
+import ServicePageLayout from '../components/softverse/servicePageLayout';
 import { Palette, Monitor, Smartphone, Layout, Search, PenTool, Eye, BarChart2, Users, Layers } from 'lucide-react';
 
 const SERVICE = {

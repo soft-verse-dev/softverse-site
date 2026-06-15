@@ -1,4 +1,4 @@
-import ServicePageLayout from '../components/softverse/ServicePageLayout';
+import ServicePageLayout from '../components/softverse/servicePageLayout';
 import { Users, Clock, TrendingUp, Shield, Zap, Star, Briefcase, RefreshCw, DollarSign, Award } from 'lucide-react';
 
 const SERVICE = {

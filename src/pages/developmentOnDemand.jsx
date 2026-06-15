@@ -1,4 +1,4 @@
-import ServicePageLayout from '../components/softverse/ServicePageLayout';
+import ServicePageLayout from '../components/softverse/servicePageLayout';
 import { Code, Smartphone, Globe, Database, GitBranch, Shield, Zap, RefreshCw, Layers, BarChart2 } from 'lucide-react';
 
 const SERVICE = {
